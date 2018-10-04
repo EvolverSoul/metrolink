@@ -6,6 +6,6 @@ function Station(name)
 Station.prototype = {
     getName: function()
     {
-        return _name;
+        return this._name;
     }
 }
